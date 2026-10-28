@@ -1,0 +1,22 @@
+# Local configuration and credentials
+/.env
+/.env.*
+!/.env.example
+
+# Rust build output
+/target/
+
+# Temporary backup workspaces
+/.backup-tmp/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and temporary files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
